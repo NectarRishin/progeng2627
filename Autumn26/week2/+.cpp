@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int main()
+{
     double n1, n2, sum;
     // this line declares three variables of a numerical type
     // n1, n2, sum are the names of the variables
@@ -16,7 +17,7 @@ int main(){
     // here the result of n1 + n2 is computed
     // and it is stored in variable sum
 
-    std::cout << n1 << " + " << n2 << " = " <<  sum << std::endl;
+    std::cout << n1 << " + " << n2 << " = " << sum << std::endl;
     // this is a printing instruction printing
     // the value in n1
     // the symbol + (with spaces)

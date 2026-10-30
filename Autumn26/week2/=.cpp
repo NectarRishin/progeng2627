@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main(){
+int main()
+{
     double a, b, c;
 
     a = 1;
@@ -23,5 +24,4 @@ int main(){
     // TODO: before testing the program
     // write in a comment below
     // what you expect to be printed
-
 }
