@@ -2,7 +2,7 @@
 // don't run this program if it's not the right time
 // to have an infinite loop running on your computer!
 
-// depending on the tools you are using this may crash 
+// depending on the tools you are using this may crash
 // your development environment, your browser, other programs
 // or the whole operating system
 
@@ -11,18 +11,19 @@
 
 #include <iostream>
 
-int main(){
+int main()
+{
     int n, counter = 0;
 
     std::cin >> n;
 
-    while(counter < n){
+    while (counter < n)
+    {
         std::cout << "hello" << std::endl;
 
         // if we remove or forget to include
         // the instruction updating counter
         // if the condition is true the first time
         // it will always stay true and the loop never ends
-
     }
 }
